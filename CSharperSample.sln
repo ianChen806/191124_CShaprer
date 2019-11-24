@@ -1,22 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_1", "GenericSample_1\GenericSample_1.csproj", "{6682D769-C1C9-479B-84B5-1E0DC8B6C597}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_01", "GenericSample_01\GenericSample_01.csproj", "{6682D769-C1C9-479B-84B5-1E0DC8B6C597}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_2", "GenericSample_2\GenericSample_2.csproj", "{FED6F644-94F0-4F4E-9139-30B1FF8B2EDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_02", "GenericSample_02\GenericSample_02.csproj", "{FED6F644-94F0-4F4E-9139-30B1FF8B2EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_3", "GenericSample_3\GenericSample_3.csproj", "{9944E003-32AD-4AC6-8094-39B0ED77CE85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_03", "GenericSample_03\GenericSample_03.csproj", "{9944E003-32AD-4AC6-8094-39B0ED77CE85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_4", "GenericSample_4\GenericSample_4.csproj", "{9C18B206-A199-4C2C-984F-652FA197692B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_04", "GenericSample_04\GenericSample_04.csproj", "{9C18B206-A199-4C2C-984F-652FA197692B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_5", "GenericSample_5\GenericSample_5.csproj", "{FF5A7713-D56E-4266-9020-18AA2ED07566}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_05", "GenericSample_05\GenericSample_05.csproj", "{FF5A7713-D56E-4266-9020-18AA2ED07566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_6", "GenericSample_6\GenericSample_6.csproj", "{2FDCF600-1584-4BFA-B486-F81E9143E84B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_06", "GenericSample_06\GenericSample_06.csproj", "{2FDCF600-1584-4BFA-B486-F81E9143E84B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_7", "GenericSample_7\GenericSample_7.csproj", "{BAD86B44-1A43-4C37-8466-6290EB3180E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_07", "GenericSample_07\GenericSample_07.csproj", "{BAD86B44-1A43-4C37-8466-6290EB3180E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_8", "GenericSample_8\GenericSample_8.csproj", "{77F77CB4-2771-40A5-A929-92C47BF105DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_08", "GenericSample_08\GenericSample_08.csproj", "{77F77CB4-2771-40A5-A929-92C47BF105DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_9", "GenericSample_9\GenericSample_9.csproj", "{B476C950-A809-468F-ABA9-629F713EBFC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_09", "GenericSample_09\GenericSample_09.csproj", "{B476C950-A809-468F-ABA9-629F713EBFC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample_10", "GenericSample_10\GenericSample_10.csproj", "{16854D56-10CB-4547-849B-1EC72FE267F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,5 +62,9 @@ Global
 		{B476C950-A809-468F-ABA9-629F713EBFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B476C950-A809-468F-ABA9-629F713EBFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B476C950-A809-468F-ABA9-629F713EBFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16854D56-10CB-4547-849B-1EC72FE267F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16854D56-10CB-4547-849B-1EC72FE267F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16854D56-10CB-4547-849B-1EC72FE267F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16854D56-10CB-4547-849B-1EC72FE267F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
