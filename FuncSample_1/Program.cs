@@ -13,6 +13,12 @@ namespace FuncSample_01
 
             var invoke = action.Invoke();
             Console.WriteLine(invoke);
+
+            Func<int, string> action2 = value =>
+            {
+                return value.ToString();
+            };
+            Console.WriteLine(action2(123));
         }
     }
 }
