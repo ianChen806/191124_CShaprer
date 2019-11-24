@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace GenericSample_2
+namespace GenericSample_02
 {
     class Program
     {

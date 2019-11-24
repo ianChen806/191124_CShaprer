@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace GenericSample_5
+namespace GenericSample_05
 {
     class Program
     {

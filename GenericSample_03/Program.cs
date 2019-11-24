@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace GenericSample_3
+namespace GenericSample_03
 {
     class Program
     {

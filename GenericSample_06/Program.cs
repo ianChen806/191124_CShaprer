@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace GenericSample_6
+﻿namespace GenericSample_06
 {
     class Program
     {

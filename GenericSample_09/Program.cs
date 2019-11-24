@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GenericSample_9
+namespace GenericSample_09
 {
     class Program
     {

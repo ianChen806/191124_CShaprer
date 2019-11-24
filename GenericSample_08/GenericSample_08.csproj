@@ -3,7 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.0</TargetFramework>
-        <RootNamespace>GenericSample_8</RootNamespace>
+        <RootNamespace>GenericSample_08</RootNamespace>
     </PropertyGroup>
 
 </Project>
