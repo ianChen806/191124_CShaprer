@@ -6,21 +6,11 @@ namespace GenericSample_1
     {
         static void Main(string[] args)
         {
-        }
-    }
+            var list1 = new List<int>();
+            list1.Add(1);
 
-    internal class MyClass<T>
-    {
-        private readonly List<T> _list = new List<T>();
-
-        void Add(T instance)
-        {
-            _list.Add(instance);
-        }
-
-        List<T> GetAll()
-        {
-            return _list;
+            var list2 = new List<string>();
+            list2.Add("1");
         }
     }
 }
