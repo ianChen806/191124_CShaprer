@@ -7,7 +7,7 @@ namespace GenericSample_10
         static void Main(string[] args)
         {
             var genericFactory = new GenericFactory();
-            var instance = genericFactory.Instance<MyClass>();
+            MyClass instance = genericFactory.Instance<MyClass>();
             instance.Test();
         }
     }

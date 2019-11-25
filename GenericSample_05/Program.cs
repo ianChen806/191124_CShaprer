@@ -12,7 +12,7 @@ namespace GenericSample_05
         {
             var sw = new Stopwatch();
             var enumerable = Enumerable.Range(1, 1_000_000).ToList();
-
+            
             sw.Restart();
             var result = 0;
             var list = new List<int>(enumerable);

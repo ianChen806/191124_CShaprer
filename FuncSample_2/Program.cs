@@ -9,6 +9,8 @@ namespace FuncSample_2
             Func<int> action = Test;
             
             var result = action();
+            var myCalss = new MyCalss();
+            myCalss.TestMethod(action);
             
             Console.WriteLine(result);
         }
@@ -16,6 +18,15 @@ namespace FuncSample_2
         private static int Test()
         {
             return 1;
+        }
+    }
+
+    internal class MyCalss
+    {
+        public int TestMethod(Func<int> action)
+        {
+            var invoke = action.Invoke();
+            return invoke;
         }
     }
 }

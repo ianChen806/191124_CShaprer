@@ -7,9 +7,10 @@ namespace GenericSample_08
         static void Main(string[] args)
         {
             var myClass = new MyClass();
-            myClass.Add<string>("Test");
+            myClass.Add("Test");
 
-            myClass.Add<string, int>("Test", 123);
+            myClass.Add("Test", 123);
+            myClass.Add<int>();
         }
     }
 
@@ -21,6 +22,11 @@ namespace GenericSample_08
         }
 
         public void Add<TValue1, TValue2>(TValue1 value1, TValue2 value2)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Add<T>()
         {
             throw new NotImplementedException();
         }
