@@ -9,6 +9,10 @@ namespace GenericSample_03
             var arrayList = new ArrayList();
             arrayList.Add(1);
             arrayList.Add(2);
+
+            var list = new ArrayList();
+            list.Add("Test");
+            list.Add("123");
         }
     }
 }

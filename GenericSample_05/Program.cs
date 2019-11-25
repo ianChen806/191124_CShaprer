@@ -16,22 +16,26 @@ namespace GenericSample_05
             sw.Restart();
             var result = 0;
             var list = new List<int>(enumerable);
-            foreach (var item in list)
+            foreach(var item in list)
             {
-                result += item;
+                var value = item;
+                result += value;
             }
             sw.Stop();
             Console.WriteLine("List: " + sw.Elapsed.TotalMilliseconds + " ms");
 
             sw.Restart();
-            result = 0;
+            var result2 = 0;
             var arrayList = new ArrayList(enumerable);
-            foreach (var item in arrayList)
+            foreach(var item in arrayList)
             {
-                result += (int)item;
+                var value = (int) item;
+                result2 += value;
             }
             sw.Stop();
             Console.WriteLine("ArrayList: " + sw.Elapsed.TotalMilliseconds + " ms");
+
+            Console.ReadLine();
         }
     }
 }
