@@ -14,9 +14,9 @@ namespace GenericSample_07
 
     class MyClass
     {
-        public List<T> GetEmpty<T>()
+        public List<TType> GetEmpty<TType>()
         {
-            return new List<T>();
+            return new List<TType>();
         }
     }
 }

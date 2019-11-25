@@ -8,6 +8,11 @@ namespace GenericSample_09
         {
             var myClass1 = new MyClass<int>();
             var myClass2 = new MyClass<string>();
+
+            // Console.WriteLine(myClass1.GetType());
+            // Console.WriteLine(myClass2.GetType());
+
+            Console.ReadLine();
         }
     }
 
