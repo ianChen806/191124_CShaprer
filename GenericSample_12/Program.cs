@@ -9,7 +9,7 @@ namespace GenericSample_12
         {
             var myClass = new MyClass();
             var value = myClass.GetIndex<MyEnum>(MyEnum.D);
-            myClass.Test(1);
+            // myClass.Test(1);
 
             Console.WriteLine(value);
         }
