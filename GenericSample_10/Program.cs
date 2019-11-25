@@ -23,6 +23,7 @@ namespace GenericSample_10
     internal class GenericFactory
     {
         public TType Instance<TType>()
+            where TType : new()
         {
             return Activator.CreateInstance<TType>();
         }
