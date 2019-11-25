@@ -6,19 +6,20 @@ namespace FuncSample_01
     {
         static void Main(string[] args)
         {
-            Func<int> action = () =>
+            Func<int> func = () =>
             {
                 return 1;
             };
 
-            var invoke = action.Invoke();
-            Console.WriteLine(invoke);
+            var result = func.Invoke();
+            Console.WriteLine(result);
 
-            Func<int, string> action2 = value =>
+            Func<int, string> func2 = value =>
             {
                 return value.ToString();
             };
-            Console.WriteLine(action2(123));
+            var result2 = func2(123);
+            Console.WriteLine(result2);
         }
     }
 }
