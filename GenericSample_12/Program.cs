@@ -31,10 +31,10 @@ namespace GenericSample_12
             return list.IndexOf(value);
         }
 
-        T Test< T, T2>(out T value1,in T2 value2)
-            where T : new()
-        {
-            return new T();
-        }
+        // T Test< T, T2>(out T value1,in T2 value2)
+        //     where T : new()
+        // {
+        //     return new T();
+        // }
     }
 }
