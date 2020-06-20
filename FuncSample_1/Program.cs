@@ -12,6 +12,7 @@ namespace FuncSample_01
             };
 
             var result = func.Invoke();
+            // var result = func();
             Console.WriteLine(result);
 
             Func<int, string> func2 = value =>
@@ -19,6 +20,7 @@ namespace FuncSample_01
                 return value.ToString();
             };
             var result2 = func2(123);
+            // var result2 = func2.Invoke(123);
             Console.WriteLine(result2);
         }
     }

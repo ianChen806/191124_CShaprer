@@ -9,8 +9,8 @@ namespace FuncSample_2
             Func<int> action = Test;
             
             var result = action();
-            var myCalss = new MyCalss();
-            myCalss.TestMethod(action);
+            var myClass = new MyCalss();
+            myClass.TestMethod(action);
             
             Console.WriteLine(result);
         }

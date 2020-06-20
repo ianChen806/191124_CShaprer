@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GenericSample_08
 {
@@ -7,10 +8,11 @@ namespace GenericSample_08
         static void Main(string[] args)
         {
             var myClass = new MyClass();
-            myClass.Add("Test");
+            myClass.Add<string>("Test");
 
-            myClass.Add("Test", 123);
-            myClass.Add<int>();
+            myClass.Add<string, int>("Test", 123);
+
+            myClass.Add<string>("Test", "123");
         }
     }
 
@@ -26,7 +28,7 @@ namespace GenericSample_08
             throw new NotImplementedException();
         }
 
-        public void Add<T>()
+        public void Add<TValue1>(TValue1 value1, string value2)
         {
             throw new NotImplementedException();
         }

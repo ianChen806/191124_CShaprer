@@ -25,7 +25,8 @@ namespace GenericSample_10
         public TType Instance<TType>()
             where TType : new()
         {
-            return Activator.CreateInstance<TType>();
+            return new TType();
+            // return Activator.CreateInstance<TType>();
         }
     }
 }

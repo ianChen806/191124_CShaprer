@@ -14,6 +14,8 @@
 
         public TClass MyProperty { get; set; }
 
+        delegate TDelegate MyDelegate<TDelegate>();
+
         public MyClass(TClass field)
         {
             _field = field;
